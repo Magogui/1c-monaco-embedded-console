@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a080006e-e960-4c06-aa30-5ec532d27dc8">
+  <producedTypes>
+    <objectType typeId="91b4a5f7-3ee0-410c-b72f-ee8d9c60b3b8" valueTypeId="9aea78e4-a30a-43c6-86e8-7c4082f2ad2c"/>
+    <managerType typeId="ffafae18-5167-4508-9e8c-752e771c9098" valueTypeId="dde53675-3353-425d-bfca-a0faca7a984f"/>
+  </producedTypes>
+  <name>конс_ДемоСтраницы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо страницы (конс)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.конс_ДемоСтраницы.Form.Форма</defaultForm>
+  <attributes uuid="31bb603a-b85f-4538-b757-c9b76669705a">
+    <name>КодПервойСтраницы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код первой страницы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2debc194-65f2-4c86-bba4-15dfdfc2d630">
+    <name>КодВторойСтраницы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код второй страницы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="010515e9-1e01-455f-aae1-7d235fb65d91">
+    <producedTypes>
+      <objectType typeId="040718da-4ee2-4be6-8eda-0b4a1ad20d0b" valueTypeId="a82bcc58-a2a3-443f-b184-5b480c1ebeb4"/>
+      <rowType typeId="313f5232-fbe9-400e-8163-7ebbf52f560c" valueTypeId="215b974a-c806-4ef8-8852-4648d4c5e5bb"/>
+    </producedTypes>
+    <name>ПараметрыЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры запроса</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="70a33bd7-fe42-419a-9a02-981ada148518">
+      <name>Имя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="174ca6eb-f90c-461b-9e63-f9dfb36e4d13">
+      <name>КодЗначение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Код значение</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <forms uuid="05aa6720-855a-4ae5-90ec-c980371e77f8">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

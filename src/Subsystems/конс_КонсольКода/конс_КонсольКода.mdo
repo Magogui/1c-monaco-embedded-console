@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3622b3c3-e601-4e64-a6fd-25f767047896">
+  <name>конс_КонсольКода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Консоль кода</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.конс_ДемоСтраницы</content>
+  <content>CommonTemplate.конс_src</content>
+  <content>CommonForm.конс_РедактированиеКода</content>
+  <content>Role.конс_ОсновнаяРоль</content>
+  <content>DataProcessor.конс_ДемоКонсоль</content>
+  <content>Constant.конс_КаталогИсходников</content>
+  <content>CommonModule.конс_ОбщийМодульСервер</content>
+  <content>CommonModule.конс_ОбщийМодульКлиент</content>
+  <content>CommonModule.конс_ОбщийМодульВызовСервера</content>
+</mdclass:Subsystem>
