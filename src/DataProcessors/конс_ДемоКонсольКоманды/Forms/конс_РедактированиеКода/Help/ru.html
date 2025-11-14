@@ -1,0 +1,255 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8"></meta><title>Демо консоль - команды</title><style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        h1 {
+            color: #333;
+            border-bottom: 2px solid #007ACC;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #007ACC;
+            margin-top: 20px;
+        }
+        .command-group {
+            margin-bottom: 30px;
+        }
+        .command {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #f5f5f5;
+            border-left: 3px solid #007ACC;
+        }
+        .command-name {
+            font-weight: bold;
+            color: #007ACC;
+        }
+        .command-desc {
+            margin-top: 5px;
+            color: #666;
+        }
+        code {
+            background-color: #f0f0f0;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+        }
+    </style></head><body>
+    <h1>Демо консоль - команды</h1>
+    
+    <p>Эта обработка демонстрирует все доступные методы для работы с консолью BSL.</p>
+    
+    <div class="command-group">
+        <h2>🎨 Управление отображением</h2>
+        
+        <div class="command">
+            <div class="command-name">Показать номера строк</div>
+            <div class="command-desc">Показывает номера строк в редакторе</div>
+        </div>
+        
+        <div class="command">
+            <div class="command-name">Скрыть номера строк</div>
+            <div class="command-desc">Скрывает номера строк в редакторе</div>
+        </div>
+        
+        <div class="command">
+            <div class="command-name">Включить миникарту</div>
+            <div class="command-desc">Показывает миникарту кода справа</div>
+        </div>
+        
+        <div class="command">
+            <div class="command-name">Выключить миникарту</div>
+            <div class="command-desc">Скрывает миникарту кода</div>
+        </div>
+    </div>
+    
+    <div class="command-group">
+        <h2>📝 Работа с текстом</h2>
+        
+        <div class="command">
+            <div class="command-name">Получить текст</div>
+            <div class="command-desc">Получает весь текст из редактора и показывает его длину</div>
+        </div>
+        
+        <div class="command">
+            <div class="command-name">Установить текст</div>
+            <div class="command-desc">Устанавливает новый текст в редакторе</div>
+        </div>
+        
+        <div class="command">
+            <div class="command-name">Очистить текст</div>
+            <div class="command-desc">Очищает весь текст в редакторе</div>
+        </div>
+        
+        <div class="command">
+            <div class="command-name">Вставить строку</div>
+            <div class="command-desc">Вставляет комментарий в начало кода</div>
+        </div>
+        
+        <div class="command">
+            <div class="command-name">Добавить строку</div>
+            <div class="command-desc">Добавляет комментарий в конец кода</div>
+        </div>
+    </div>
+    
+    <div class="command-group">
+        <h2>✂️ Работа с выделением</h2>
+        
+        <div class="command">
+            <div class="command-name">Получить выделенный текст</div>
+            <div class="command-desc">Получает и показывает выделенный текст</div>
+        </div>
+        
+        <div class="command">
+            <div class="command-name">Заменить выделенный текст</div>
+            <div class="command-desc">Заменяет выделенный текст на верхний регистр</div>
+        </div>
+        
+        <div class="command">
+            <div class="command-name">Установить выделение</div>
+            <div class="command-desc">Выделяет строки со 2 по 5</div>
+        </div>
+    </div>
+    
+    <div class="command-group">
+        <h2>📍 Координаты и позиция</h2>
+        
+        <div class="command">
+            <div class="command-name">Получить координаты выделения</div>
+            <div class="command-desc">Показывает координаты начала и конца выделения</div>
+        </div>
+        
+        <div class="command">
+            <div class="command-name">Получить номера строк выделения</div>
+            <div class="command-desc">Показывает номера начальной и конечной строк выделения</div>
+        </div>
+        
+        <div class="command">
+            <div class="command-name">Показать координаты выделения</div>
+            <div class="command-desc">Открывает панель с координатами выделения</div>
+        </div>
+        
+        <div class="command">
+            <div class="command-name">Получить текущую строку</div>
+            <div class="command-desc">Показывает номер текущей строки курсора</div>
+        </div>
+        
+        <div class="command">
+            <div class="command-name">Получить текущую колонку</div>
+            <div class="command-desc">Показывает номер текущей колонки курсора</div>
+        </div>
+    </div>
+    
+    <div class="command-group">
+        <h2>🔍 Навигация и поиск</h2>
+        
+        <div class="command">
+            <div class="command-name">Найти текст</div>
+            <div class="command-desc">Ищет слово "Процедура" в коде</div>
+        </div>
+        
+        <div class="command">
+            <div class="command-name">Открыть виджет поиска</div>
+            <div class="command-desc">Открывает панель поиска (Ctrl+F)</div>
+        </div>
+        
+        <div class="command">
+            <div class="command-name">Перейти к строке</div>
+            <div class="command-desc">Открывает диалог перехода к строке (Ctrl+G)</div>
+        </div>
+        
+        <div class="command">
+            <div class="command-name">Показать строку в центре</div>
+            <div class="command-desc">Показывает строку 5 в центре экрана</div>
+        </div>
+        
+        <div class="command">
+            <div class="command-name">Перейти к парной скобке</div>
+            <div class="command-desc">Переходит к парной скобке</div>
+        </div>
+    </div>
+    
+    <div class="command-group">
+        <h2>📌 Закладки</h2>
+        
+        <div class="command">
+            <div class="command-name">Добавить закладку</div>
+            <div class="command-desc">Добавляет закладку на текущую строку</div>
+        </div>
+        
+        <div class="command">
+            <div class="command-name">Удалить закладку</div>
+            <div class="command-desc">Удаляет закладку с текущей строки</div>
+        </div>
+        
+        <div class="command">
+            <div class="command-name">Получить закладки</div>
+            <div class="command-desc">Показывает список всех закладок</div>
+        </div>
+    </div>
+    
+    <div class="command-group">
+        <h2>🎨 Темы оформления</h2>
+        
+        <div class="command">
+            <div class="command-name">Установить светлую тему</div>
+            <div class="command-desc">Переключает на светлую тему (bsl-white)</div>
+        </div>
+        
+        <div class="command">
+            <div class="command-name">Установить темную тему</div>
+            <div class="command-desc">Переключает на темную тему (bsl-dark)</div>
+        </div>
+        
+        <div class="command">
+            <div class="command-name">Включить режим только для чтения</div>
+            <div class="command-desc">Включает режим только для чтения</div>
+        </div>
+        
+        <div class="command">
+            <div class="command-name">Выключить режим только для чтения</div>
+            <div class="command-desc">Выключает режим только для чтения</div>
+        </div>
+    </div>
+    
+    <div class="command-group">
+        <h2>⚠️ Маркеры и ошибки</h2>
+        
+        <div class="command">
+            <div class="command-name">Установить маркеры (пример)</div>
+            <div class="command-desc">Устанавливает примеры маркеров: ошибку, предупреждение и информацию</div>
+        </div>
+    </div>
+    
+    <div class="command-group">
+        <h2>✨ Дополнительные методы</h2>
+        
+        <div class="command">
+            <div class="command-name">Отформатировать текст</div>
+            <div class="command-desc">Форматирует код (Alt+Shift+F)</div>
+        </div>
+        
+        <div class="command">
+            <div class="command-name">Показать справку</div>
+            <div class="command-desc">Показывает справку программно</div>
+        </div>
+        
+        <div class="command">
+            <div class="command-name">Скрыть справку</div>
+            <div class="command-desc">Скрывает справку программно</div>
+        </div>
+        
+        <div class="command">
+            <div class="command-name">Сбросить позицию кнопки помощи</div>
+            <div class="command-desc">Сбрасывает позицию кнопки помощи к значению по умолчанию</div>
+        </div>
+    </div>
+    
+    <hr></hr><h2>📖 Дополнительная информация</h2>
+    <p>Для получения подробной информации о каждом методе см. файл <code>МЕТОДЫ_КОНСОЛИ.md</code> в корне проекта.</p>
+    
+    <p>Все методы доступны через общий модуль <code>конс_ОбщийМодульКлиент</code>.</p>
+    
+</body></html>

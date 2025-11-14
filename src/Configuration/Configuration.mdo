@@ -39,6 +39,7 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.конс_КонсольКода</subsystems>
+  <commonPictures>CommonPicture.конс_КартинкаПодсистемы</commonPictures>
   <roles>Role.конс_ОсновнаяРоль</roles>
   <commonTemplates>CommonTemplate.конс_src</commonTemplates>
   <commonModules>CommonModule.конс_ОбщийМодульВызовСервера</commonModules>
@@ -49,4 +50,5 @@
   <commonForms>CommonForm.конс_КаталогИсходников</commonForms>
   <dataProcessors>DataProcessor.конс_ДемоСтраницы</dataProcessors>
   <dataProcessors>DataProcessor.конс_ДемоКонсоль</dataProcessors>
+  <dataProcessors>DataProcessor.конс_ДемоКонсольКоманды</dataProcessors>
 </mdclass:Configuration>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0a2a4e55-dcd3-4019-abaa-6bc53d8007e3">
+  <name>Обработки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработки</value>
+  </synonym>
+  <extension xsi:type="mdclassExtension:SubsystemExtension">
+    <commandInterface>Extended</commandInterface>
+  </extension>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.конс_ДемоКонсоль</content>
+  <content>DataProcessor.конс_ДемоСтраницы</content>
+  <content>DataProcessor.конс_ДемоКонсольКоманды</content>
+  <parentSubsystem>Subsystem.конс_КонсольКода</parentSubsystem>
+</mdclass:Subsystem>

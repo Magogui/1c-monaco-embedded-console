@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Form xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="15d46f8a-3c38-4e27-9f98-1c5e7f9a4d6b">
+  <name>конс_РедактированиеКода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Редактирование кода</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:Form>

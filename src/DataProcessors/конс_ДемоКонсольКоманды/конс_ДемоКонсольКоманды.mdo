@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3deb768e-c327-4e26-bf87-0b4df542e4cc">
+  <producedTypes>
+    <objectType typeId="b30ef629-1214-4c23-995b-63d3595f5b58" valueTypeId="c3c7f04d-8e55-402e-b962-70e3606f6b59"/>
+    <managerType typeId="d41f1d8a-2879-4d1e-9be5-7fe4e8a2c925" valueTypeId="f52g2e9b-3f8a-4e2f-a076-81f5f9b3d036"/>
+  </producedTypes>
+  <name>конс_ДемоКонсольКоманды</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо консоль - команды (конс)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.конс_ДемоКонсольКоманды.Form.конс_РедактированиеКода</defaultForm>
+  <attributes uuid="a10256b4-1ae2-46c8-af14-14c0377801ab">
+    <name>конс_Код</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конс код</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="05c35f69-d8ad-4f1b-9e06-853355e6c59b">
+    <name>конс_РедактированиеКода</name>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
