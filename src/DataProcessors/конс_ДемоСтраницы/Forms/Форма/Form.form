@@ -648,6 +648,10 @@
                 <items xsi:type="form:FormField">
                   <name>ПараметрыЗапросаКодЗначение</name>
                   <id>224</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Код или значение</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
