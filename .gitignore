@@ -1,0 +1,37 @@
+# Временные файлы 1C
+*.tmp
+*.bak
+*.~*
+
+# Файлы проекта Eclipse
+.project
+.classpath
+
+# Логи
+*.log
+
+# Кэш и временные файлы IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Файлы операционной системы
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Папка для временных файлов Kiro
+.kiro/cache/
+.kiro/temp/
+
+# Скомпилированные файлы 1C
+*.epf
+*.erf
+*.cf
+*.cfe
+
+# Резервные копии
+backup/
+*.backup

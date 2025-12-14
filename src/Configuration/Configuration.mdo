@@ -29,7 +29,7 @@
   <scriptVariant>Russian</scriptVariant>
   <defaultRoles>Role.конс_ОсновнаяРоль</defaultRoles>
   <defaultLanguage>Language.Русский</defaultLanguage>
-  <languages uuid="34f8a4d7-76ff-41ca-902d-5e83092cc755" extendedConfigurationObject="db4a9ccb-9ef5-4b3c-8577-b6fe5db1b62e">
+  <languages uuid="34f8a4d7-76ff-41ca-902d-5e83092cc755" extendedConfigurationObject="6b479c99-895d-408d-ba4c-09aa9bbfd492">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:LanguageExtension">
@@ -45,6 +45,7 @@
   <commonModules>CommonModule.конс_ОбщийМодульВызовСервера</commonModules>
   <commonModules>CommonModule.конс_ОбщийМодульКлиент</commonModules>
   <commonModules>CommonModule.конс_ОбщийМодульСервер</commonModules>
+  <commonCommands>CommonCommand.kaf_ОбновитьКонсоль</commonCommands>
   <constants>Constant.конс_КаталогИсходников</constants>
   <commonForms>CommonForm.конс_РедактированиеКода</commonForms>
   <commonForms>CommonForm.конс_КаталогИсходников</commonForms>
