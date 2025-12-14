@@ -719,31 +719,6 @@
           <placementArea>UserCmds</placementArea>
           <representationInContextMenu>Auto</representationInContextMenu>
         </items>
-        <items xsi:type="form:Button">
-          <name>УдалитьЗакладку</name>
-          <id>124</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <extendedTooltip>
-            <name>УдалитьЗакладкуРасширеннаяПодсказка</name>
-            <id>125</id>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <commandName>Form.Command.УдалитьЗакладку</commandName>
-          <representation>Auto</representation>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <placementArea>UserCmds</placementArea>
-          <representationInContextMenu>Auto</representationInContextMenu>
-        </items>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1251,7 +1226,7 @@
     </title>
     <id>1</id>
     <valueType>
-      <types>DataProcessorObject.конс_ДемоКонсольКоманды</types>
+      <types>DataProcessorObject.конс_ДемоКонсоль</types>
     </valueType>
     <view>
       <common>true</common>
@@ -1648,23 +1623,6 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ДобавитьЗакладку</name>
-      </handler>
-    </action>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>УдалитьЗакладку</name>
-    <title>
-      <key>ru</key>
-      <value>Удалить закладку</value>
-    </title>
-    <id>123</id>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>УдалитьЗакладку</name>
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
