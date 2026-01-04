@@ -24,7 +24,7 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
-  <forms uuid="05c35f69-d8ad-4f1b-9e06-853355e6c59b">
+  <forms uuid="388a5268-99c3-457d-8a5e-666277203563">
     <name>конс_РедактированиеКода</name>
     <includeHelpInContents>true</includeHelpInContents>
     <help>

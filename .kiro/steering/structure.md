@@ -19,9 +19,9 @@
 
 ### Common Modules (Общие модули)
 All modules use `конс_` prefix:
-- `конс_ОбщийМодульКлиент/` - Client-side API and editor integration
-- `конс_ОбщийМодульСервер/` - Server-side form initialization
-- `конс_ОбщийМодульВызовСервера/` - Server call wrapper
+- `конс_ИнициализацияРедактораКлиент/` - Client-side API and editor integration
+- `конс_ИнициализацияРедактораСервер/` - Server-side form initialization
+- `конс_ИнициализацияРедактораВызовСервера/` - Server call wrapper
 
 ### Common Forms (Общие формы)
 - `конс_РедактированиеКода/` - Main code editor form

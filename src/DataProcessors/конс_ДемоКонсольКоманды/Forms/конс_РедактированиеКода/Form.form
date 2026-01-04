@@ -1226,7 +1226,7 @@
     </title>
     <id>1</id>
     <valueType>
-      <types>DataProcessorObject.конс_ДемоКонсоль</types>
+      <types>DataProcessorObject.конс_ДемоКонсольКоманды</types>
     </valueType>
     <view>
       <common>true</common>

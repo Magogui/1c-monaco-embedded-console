@@ -17,9 +17,9 @@
 
 - Configuration extension with prefix `конс_` (cons_)
 - Common modules for client/server architecture:
-  - `конс_ОбщийМодульКлиент` - Client-side logic
-  - `конс_ОбщийМодульСервер` - Server-side logic  
-  - `конс_ОбщийМодульВызовСервера` - Server call module
+  - `конс_ИнициализацияРедактораКлиент` - Client-side logic
+  - `конс_ИнициализацияРедактораСервер` - Server-side logic  
+  - `конс_ИнициализацияРедактораВызовСервера` - Server call module
 - Common forms for reusable UI components
 - Data processors for demo/testing purposes
 - Template storage for Monaco Editor source files

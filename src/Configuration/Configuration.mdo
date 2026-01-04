@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="299932e5-d9de-4036-b9ef-3c8cee786271">
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="07de31df-ffad-47b5-9fc6-46e329246bd5">
   <name>КонсольКода</name>
   <synonym>
     <key>ru</key>
@@ -13,13 +13,13 @@
     <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
     <defaultRoles>Extended</defaultRoles>
   </extension>
-  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="f20e6331-be6b-4375-96a7-70db98c68da1"/>
-  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="6b13205b-b019-4559-b373-b139dabb57b3"/>
-  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="dabc8c2c-48cb-4fb2-802f-c9c07cc05e58"/>
-  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="38df1833-9c37-4b79-a867-b0f0d2fa9ff8"/>
-  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="0d18104c-3cc9-4768-8b25-58619d676278"/>
-  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="ca16519f-9e09-49d4-add4-72e3628cc45d"/>
-  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="1c29575b-f71e-40d0-b4d6-12556148304a"/>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="87267d65-46b9-4522-8653-d41e3b2839d6"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="44121c4b-962f-4482-aff0-0be9a2d842b1"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="baa712f9-196d-4b11-8bcf-065f7f39cc82"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="b430beb1-51b1-40bb-a61d-d5dfd0adf6ea"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="858395e3-a02f-4f6d-aee8-2e944f3e85b9"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="c44c2275-5fea-44bd-998e-0deb25434923"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="43637414-1287-460a-9f70-97fba78fb2f8"/>
   <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
   <namePrefix>конс_</namePrefix>
   <configurationExtensionCompatibilityMode>8.3.24</configurationExtensionCompatibilityMode>
@@ -29,11 +29,10 @@
   <scriptVariant>Russian</scriptVariant>
   <defaultRoles>Role.конс_ОсновнаяРоль</defaultRoles>
   <defaultLanguage>Language.Русский</defaultLanguage>
-  <languages uuid="34f8a4d7-76ff-41ca-902d-5e83092cc755" extendedConfigurationObject="6b479c99-895d-408d-ba4c-09aa9bbfd492">
+  <languages uuid="8778fcbb-13d1-448a-a168-35eda8b31384">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:LanguageExtension">
-      <extendedConfigurationObject>Checked</extendedConfigurationObject>
       <languageCode>Checked</languageCode>
     </extension>
     <languageCode>ru</languageCode>
@@ -42,14 +41,15 @@
   <commonPictures>CommonPicture.конс_КартинкаПодсистемы</commonPictures>
   <roles>Role.конс_ОсновнаяРоль</roles>
   <commonTemplates>CommonTemplate.конс_src</commonTemplates>
-  <commonModules>CommonModule.конс_ОбщийМодульВызовСервера</commonModules>
-  <commonModules>CommonModule.конс_ОбщийМодульКлиент</commonModules>
-  <commonModules>CommonModule.конс_ОбщийМодульСервер</commonModules>
+  <commonModules>CommonModule.конс_ИнициализацияРедактораВызовСервера</commonModules>
+  <commonModules>CommonModule.конс_ИнициализацияРедактораКлиент</commonModules>
+  <commonModules>CommonModule.конс_ИнициализацияРедактораСервер</commonModules>
+  <commonModules>CommonModule.конс_КомандыРедактораКлиент</commonModules>
   <commonCommands>CommonCommand.kaf_ОбновитьКонсоль</commonCommands>
   <constants>Constant.конс_КаталогИсходников</constants>
-  <commonForms>CommonForm.конс_РедактированиеКода</commonForms>
   <commonForms>CommonForm.конс_КаталогИсходников</commonForms>
-  <dataProcessors>DataProcessor.конс_ДемоСтраницы</dataProcessors>
+  <commonForms>CommonForm.конс_РедактированиеКода</commonForms>
   <dataProcessors>DataProcessor.конс_ДемоКонсоль</dataProcessors>
   <dataProcessors>DataProcessor.конс_ДемоКонсольКоманды</dataProcessors>
+  <dataProcessors>DataProcessor.конс_ДемоСтраницы</dataProcessors>
 </mdclass:Configuration>

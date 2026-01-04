@@ -13,9 +13,9 @@
   <content>CommonTemplate.конс_src</content>
   <content>CommonForm.конс_РедактированиеКода</content>
   <content>Role.конс_ОсновнаяРоль</content>
-  <content>CommonModule.конс_ОбщийМодульСервер</content>
-  <content>CommonModule.конс_ОбщийМодульКлиент</content>
-  <content>CommonModule.конс_ОбщийМодульВызовСервера</content>
+  <content>CommonModule.конс_ИнициализацияРедактораСервер</content>
+  <content>CommonModule.конс_ИнициализацияРедактораКлиент</content>
+  <content>CommonModule.конс_ИнициализацияРедактораВызовСервера</content>
   <subsystems>Обработки</subsystems>
   <subsystems>Константы</subsystems>
 </mdclass:Subsystem>
