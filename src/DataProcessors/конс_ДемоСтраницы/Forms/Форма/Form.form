@@ -1267,6 +1267,11 @@
     <picture xsi:type="core:PictureRef">
       <picture>StdPicture.SpreadsheetShowComments</picture>
     </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>конс_БыстрыеПодсказки</name>
+      </handler>
+    </action>
     <representation>Picture</representation>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
@@ -1295,6 +1300,11 @@
     <picture xsi:type="core:PictureRef">
       <picture>StdPicture.QueryWizard</picture>
     </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>конс_КонструкторЗапроса</name>
+      </handler>
+    </action>
     <representation>TextPicture</representation>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
@@ -1315,6 +1325,11 @@
     <picture xsi:type="core:PictureRef">
       <picture>StdPicture.DataCompositionConditionalAppearance</picture>
     </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>конс_ПодсвечиватьЗапросы</name>
+      </handler>
+    </action>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
@@ -1334,6 +1349,11 @@
     <picture xsi:type="core:PictureRef">
       <picture>StdPicture.SwitchActivity</picture>
     </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>конс_СтрокаСостояния</name>
+      </handler>
+    </action>
     <representation>Picture</representation>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
@@ -1354,6 +1374,11 @@
     <picture xsi:type="core:PictureRef">
       <picture>StdPicture.SpreadsheetReadOnly</picture>
     </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>конс_ТолькоДляЧтения</name>
+      </handler>
+    </action>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <commandInterface>

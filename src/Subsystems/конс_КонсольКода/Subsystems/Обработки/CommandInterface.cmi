@@ -5,7 +5,6 @@
       <group>ActionsPanelTools</group>
       <commands>DataProcessor.конс_ДемоКонсоль.StandardCommand.Open</commands>
       <commands>DataProcessor.конс_ДемоСтраницы.StandardCommand.Open</commands>
-      <commands>DataProcessor.конс_ДемоКонсольКоманды.StandardCommand.Open</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>
