@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a4c7d1b9-52e8-4f36-9b0d-7c83f2a64e15">
+  <name>конс_ВыполнениеКода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Консоль кода: выполнение кода</value>
+  </synonym>
+</mdclass:Role>

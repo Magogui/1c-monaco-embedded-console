@@ -131,6 +131,31 @@
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
+      <items xsi:type="form:Button">
+        <name>конс_СовременныеВозможности</name>
+        <id>74</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>конс_СовременныеВозможностиРасширеннаяПодсказка</name>
+          <id>75</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Command.конс_СовременныеВозможности</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -376,6 +401,27 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>конс_СовременныеВозможности</name>
+    <id>4</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <title>
+      <key>ru</key>
+      <value>Современные возможности Monaco</value>
+    </title>
+    <toolTip>
+      <key>ru</key>
+      <value>Групповое включение современных опций редактора Monaco</value>
+    </toolTip>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>конс_СохранитьИЗакрыть</name>
     <title>
@@ -532,6 +578,30 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>конс_ТолькоДляЧтения</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>конс_СовременныеВозможности</name>
+    <title>
+      <key>ru</key>
+      <value>Современные возможности Monaco</value>
+    </title>
+    <id>8</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Групповое включение/выключение sticky scroll, inlay hints, inline suggest, подсветки скобок и Unicode</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.SwitchActivity</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>конс_СовременныеВозможности</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
