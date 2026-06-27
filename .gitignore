@@ -3,9 +3,10 @@
 *.bak
 *.~*
 
-# Файлы проекта Eclipse
+# Файлы проекта Eclipse / EDT
 .project
 .classpath
+.settings/
 
 # Логи
 *.log
@@ -13,6 +14,8 @@
 # Кэш и временные файлы IDE
 .idea/
 .vscode/
+.cursor/
+*.code-workspace
 *.swp
 *.swo
 *~
@@ -22,9 +25,34 @@
 Thumbs.db
 desktop.ini
 
-# Папка для временных файлов Kiro
-.kiro/cache/
-.kiro/temp/
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+
+# Node.js
+node_modules/
+
+# Kiro (локальные артефакты)
+.kiro/
+
+# Сборка и артефакты разработки
+Monaco/
+Monaco.zip
+*.zip.bak
+
+# Локальные инструменты разработки (не входят в поставку)
+tools/
+
+# Локальные скриншоты, дампы и артефакты тестов Cursor
+assets/
+agent-tools/
+agent-transcripts/
+
+# Временные каталоги распаковки консоли (толстый клиент)
+**/bsl_console/
 
 # Скомпилированные файлы 1C
 *.epf

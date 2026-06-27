@@ -7,6 +7,81 @@
       <name>конс_ГруппаКомандКонсоли</name>
       <id>59</id>
       <items xsi:type="form:Button">
+        <name>конс_ВыполнитьКод</name>
+        <id>902</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>конс_ВыполнитьКодРасширеннаяПодсказка</name>
+          <id>903</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Command.конс_ВыполнитьКод</commandName>
+        <representation>TextPicture</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
+      <items xsi:type="form:Button">
+        <name>конс_ВыполнитьЗапрос</name>
+        <id>904</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>конс_ВыполнитьЗапросРасширеннаяПодсказка</name>
+          <id>905</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Command.конс_ВыполнитьЗапрос</commandName>
+        <representation>TextPicture</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
+      <items xsi:type="form:Button">
+        <name>конс_ПредыдущийКод</name>
+        <id>906</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>конс_ПредыдущийКодРасширеннаяПодсказка</name>
+          <id>907</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Command.конс_ПредыдущийКод</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
+      <items xsi:type="form:Button">
         <name>конс_КонструкторЗапроса</name>
         <id>74</id>
         <visible>true</visible>
@@ -75,6 +150,31 @@
           </extInfo>
         </extendedTooltip>
         <commandName>Form.Command.конс_СтрокаСостояния</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
+      <items xsi:type="form:Button">
+        <name>конс_СовременныеВозможности</name>
+        <id>900</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>конс_СовременныеВозможностиРасширеннаяПодсказка</name>
+          <id>901</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Command.конс_СовременныеВозможности</commandName>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -199,6 +299,62 @@
         <horizontalStretch>true</horizontalStretch>
         <verticalStretch>true</verticalStretch>
       </extInfo>
+    </items>
+    <items xsi:type="form:Table">
+      <name>конс_РезультатЗапроса</name>
+      <id>910</id>
+      <title>
+        <key>ru</key>
+        <value>Результат запроса</value>
+      </title>
+      <visible>false</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>конс_РезультатЗапроса</segments>
+      </dataPath>
+      <titleLocation>Top</titleLocation>
+      <autoCommandBar>
+        <name>конс_РезультатЗапросаКоманднаяПанель</name>
+        <id>911</id>
+        <horizontalAlign>Left</horizontalAlign>
+        <autoFill>true</autoFill>
+      </autoCommandBar>
+      <extendedTooltip>
+        <name>конс_РезультатЗапросаРасширеннаяПодсказка</name>
+        <id>912</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>конс_РезультатЗапросаКонтекстноеМеню</name>
+        <id>913</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <changeRowSet>false</changeRowSet>
+      <changeRowOrder>false</changeRowOrder>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <autoMaxRowsCount>true</autoMaxRowsCount>
+      <selectionMode>MultiRow</selectionMode>
+      <header>true</header>
+      <headerHeight>1</headerHeight>
+      <footerHeight>1</footerHeight>
+      <horizontalScrollBar>AutoUse</horizontalScrollBar>
+      <verticalScrollBar>AutoUse</verticalScrollBar>
+      <horizontalLines>true</horizontalLines>
+      <verticalLines>true</verticalLines>
+      <searchOnInput>Auto</searchOnInput>
+      <initialListView>Auto</initialListView>
+      <horizontalStretch>true</horizontalStretch>
+      <fileDragMode>AsFileRef</fileDragMode>
+      <rowFilter xsi:type="core:UndefinedValue"/>
     </items>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -344,6 +500,23 @@
     </edit>
   </attributes>
   <attributes>
+    <name>конс_РезультатЗапроса</name>
+    <title>
+      <key>ru</key>
+      <value>Результат запроса</value>
+    </title>
+    <id>10</id>
+    <valueType>
+      <types>ValueTable</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
     <name>Объект</name>
     <title>
       <key>ru</key>
@@ -361,6 +534,72 @@
     </edit>
     <main>true</main>
   </attributes>
+  <formCommands>
+    <name>конс_ВыполнитьКод</name>
+    <title>
+      <key>ru</key>
+      <value>Выполнить</value>
+    </title>
+    <id>30</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Выполнить код на сервере (Ctrl+Enter). Выполняется выделенный фрагмент или весь текст</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>конс_ВыполнитьКод</name>
+      </handler>
+    </action>
+    <representation>Auto</representation>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>конс_ВыполнитьЗапрос</name>
+    <title>
+      <key>ru</key>
+      <value>Выполнить запрос</value>
+    </title>
+    <id>31</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Выполнить текст как запрос и показать результат в таблице</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>конс_ВыполнитьЗапрос</name>
+      </handler>
+    </action>
+    <representation>Auto</representation>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>конс_ПредыдущийКод</name>
+    <title>
+      <key>ru</key>
+      <value>Предыдущий код</value>
+    </title>
+    <id>32</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Выбрать один из последних выполненных сниппетов кода</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>конс_ПредыдущийКод</name>
+      </handler>
+    </action>
+    <representation>Auto</representation>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
   <formCommands>
     <name>конс_СохранитьИЗакрыть</name>
     <title>
@@ -495,6 +734,30 @@
       </handler>
     </action>
     <representation>Picture</representation>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>конс_СовременныеВозможности</name>
+    <title>
+      <key>ru</key>
+      <value>Современные возможности Monaco</value>
+    </title>
+    <id>9</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Групповое включение/выключение современных опций редактора Monaco</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.SwitchActivity</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>конс_СовременныеВозможности</name>
+      </handler>
+    </action>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
