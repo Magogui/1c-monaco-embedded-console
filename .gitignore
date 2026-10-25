@@ -45,6 +45,25 @@ Monaco.zip
 
 # Локальные инструменты разработки (не входят в поставку)
 tools/
+*.ps1
+*.py
+*.sh
+*.bat
+*.cmd
+*.os
+
+# ИИ-агенты и MCP-серверы (локальные настройки с путями этой машины)
+.mcp.json
+.claude/
+CLAUDE.local.md
+.codex/
+.zcode/
+
+# bsl-analyzer: локальный кэш, настройки и отчеты анализа
+.bsl-analyzer/
+bsl-analyzer.toml
+*.sarif
+*.jsonl
 
 # Локальные скриншоты, дампы и артефакты тестов Cursor
 assets/

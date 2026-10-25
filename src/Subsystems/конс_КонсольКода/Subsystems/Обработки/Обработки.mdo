@@ -9,7 +9,6 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>DataProcessor.конс_ДемоКонсоль</content>
   <content>DataProcessor.конс_ДемоСтраницы</content>
-  <content>CommonCommand.kaf_ОбновитьКонсоль</content>
   <content>DataProcessor.конс_ДемоКонсольКоманды</content>
   <parentSubsystem>Subsystem.конс_КонсольКода</parentSubsystem>
 </mdclass:Subsystem>
