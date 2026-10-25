@@ -8,6 +8,5 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Constant.конс_КаталогИсходников</content>
-  <content>Constant.конс_URLВебКонсоли</content>
   <parentSubsystem>Subsystem.конс_КонсольКода</parentSubsystem>
 </mdclass:Subsystem>
