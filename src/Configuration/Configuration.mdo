@@ -41,14 +41,13 @@
   <commonPictures>CommonPicture.конс_КартинкаПодсистемы</commonPictures>
   <roles>Role.конс_ВыполнениеКода</roles>
   <roles>Role.конс_ОсновнаяРоль</roles>
-  <commonTemplates>CommonTemplate.конс_src</commonTemplates>
+  <commonTemplates>CommonTemplate.конс_КонсольКода</commonTemplates>
+  <commonTemplates>CommonTemplate.конс_СинтаксисКонсоли</commonTemplates>
   <commonModules>CommonModule.конс_ВыполнениеКодаВызовСервера</commonModules>
   <commonModules>CommonModule.конс_ИнициализацияРедактораВызовСервера</commonModules>
   <commonModules>CommonModule.конс_ИнициализацияРедактораКлиент</commonModules>
   <commonModules>CommonModule.конс_ИнициализацияРедактораСервер</commonModules>
   <commonModules>CommonModule.конс_КомандыРедактораКлиент</commonModules>
-  <commonCommands>CommonCommand.kaf_ОбновитьКонсоль</commonCommands>
-  <constants>Constant.конс_URLВебКонсоли</constants>
   <constants>Constant.конс_КаталогИсходников</constants>
   <commonForms>CommonForm.конс_КаталогИсходников</commonForms>
   <commonForms>CommonForm.конс_РедактированиеКода</commonForms>
