@@ -1,0 +1,3 @@
+# Макеты консоли (HTML и JSON справочника) хранятся как есть, без преобразования переводов строк
+src/CommonTemplates/*/Template.txt -text
+*.bin binary

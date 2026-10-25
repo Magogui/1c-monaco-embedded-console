@@ -10,7 +10,8 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.конс_КартинкаПодсистемы</picture>
   </picture>
-  <content>CommonTemplate.конс_src</content>
+  <content>CommonTemplate.конс_КонсольКода</content>
+  <content>CommonTemplate.конс_СинтаксисКонсоли</content>
   <content>CommonForm.конс_РедактированиеКода</content>
   <content>Role.конс_ОсновнаяРоль</content>
   <content>CommonModule.конс_ИнициализацияРедактораКлиент</content>

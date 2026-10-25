@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="941f617b-8ce2-4893-8fb4-081cee749146">
+  <name>конс_СинтаксисКонсоли</name>
+  <synonym>
+    <key>ru</key>
+    <value>Синтаксис консоли</value>
+  </synonym>
+  <templateType>TextDocument</templateType>
+</mdclass:CommonTemplate>
